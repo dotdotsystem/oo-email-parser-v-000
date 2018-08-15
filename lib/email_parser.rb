@@ -9,8 +9,7 @@ def initialize(emails)
   @emails = emails
 end
 
-  def parse(email)
-    def parse
+def parse
   emails.split.map{ |emails| emails.split(",") }.flatten.uniq
 
 
