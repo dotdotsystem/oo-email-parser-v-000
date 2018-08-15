@@ -9,6 +9,6 @@ def initialize(email)
   @email = email
 end
 
-  def parser(email)
+  def parse(email)
   end
 end
