@@ -13,21 +13,3 @@ class EmailParser
     emails.split.map{ |emails| emails.split(",") }.flatten.uniq
   end
 end
-
-
-
-
-
-
-
-def parse
-  email_array = emails.split(/[,\s]/)
-  unique_emails = []
-  email_array.each do |e|
-    if !unique_emails.include?(e) && e != ""
-      unique_emails << e
-    end
-  end
-  unique_emails
-end
-end
